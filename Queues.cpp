@@ -27,6 +27,11 @@ public:
             cout << "\nQueue overflow\n"; //1.a
             return;                      // 1.b
         }
-    }
 
-    
+        //2. cek apakah antrian kosong
+        if (FRONT== 1)
+        {
+            FRONT = 0; // 2.a
+            REAR = 0;  //2.b
+        }
+    }    
