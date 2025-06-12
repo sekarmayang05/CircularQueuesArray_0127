@@ -161,4 +161,11 @@ int main ()
                 break;
             }
             }
-       
+        }
+        catch (exception &e)
+        {
+            cout << "Chcek for the values enteread." << endl;
+        }
+    }
+    return 0;
+}
